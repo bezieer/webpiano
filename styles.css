@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.piano {
+  border: 1px solid #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px;
+  user-select: none;
+}
+
+.key {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  margin: 0 10px;
+  cursor: pointer;
+}
