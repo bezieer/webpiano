@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ピアノ鍵盤マウス</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- 画面上の鍵盤は表示しなくても、マウスのボタン操作で音を鳴らすことができます。 -->
+<!-- 鍵盤を表示したい場合は、HTMLのコメントアウトを外してください。 -->
+<!--
+<div class="piano">
+  <div class="key"></div>
+</div>
+-->
+
+<div class="piano">
+  <img src="piano.png" alt="ピアノ" id="pianoImage">
+</div>
+
+
+<audio id="cNote" src="C.wav"></audio>
+<audio id="csNote" src="Cs.wav"></audio>
+<audio id="dNote" src="D.wav"></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
